@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#48000000"
+        android:fontFamily="@font/playfair_display_black"
+        android:gravity="center"
+        android:text="@string/header"
+        android:textColor="#F1EC88"
+        android:textSize="30dp" />
+
+    <LinearLayout
+        android:id="@+id/DBS"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#CCFF3333"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            app:srcCompat="@drawable/dbs" />
+
+        <TextView
+            android:id="@+id/tvDBS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#83FFFFFF"
+            android:drawableLeft="@drawable/twotone_star_24"
+            android:drawablePadding="20dp"
+            android:fontFamily="@font/crimson_pro_bold"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/dbs"
+            android:textColor="#000000"
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/crimson_pro_medium"
+            android:text="@string/prompt"
+            android:textColor="#FFDDDBA5"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#48000000" />
+
+    <LinearLayout
+        android:id="@+id/OCBC"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#CCE01B28"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            app:srcCompat="@drawable/ocbc" />
+
+        <TextView
+            android:id="@+id/tvOCBC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#83FFFFFF"
+            android:drawableLeft="@drawable/twotone_star_24"
+            android:drawablePadding="20dp"
+            android:fontFamily="@font/crimson_pro_bold"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/ocbc"
+            android:textColor="#000000"
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/crimson_pro_medium"
+            android:padding="10dp"
+            android:text="@string/prompt"
+            android:textColor="#FFDDDBA5"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#48000000" />
+
+    <LinearLayout
+        android:id="@+id/UOB"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#8B002569"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            app:srcCompat="@drawable/uob" />
+
+        <TextView
+            android:id="@+id/tvUOB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#83FFFFFF"
+            android:drawableLeft="@drawable/twotone_star_24"
+            android:drawablePadding="20dp"
+            android:fontFamily="@font/crimson_pro_bold"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/uob"
+            android:textColor="#000000"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/crimson_pro_medium"
+            android:padding="10dp"
+            android:text="@string/prompt"
+            android:textColor="#DDDBA5"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
